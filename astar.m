@@ -28,7 +28,7 @@ while(floor(endnode(1,1)/res)<=0||floor(endnode(1,1)/res)>=250/res || floor(endn
 end
 %% Algorithm (A*)
 node=1;
-start_node=[floor(start_node(1,1)/res) floor(start_node(1,1)/res)];
+start_node=[floor(start_node(1,1)/res) floor(start_node(1,2)/res)];
 startx=start_node(1,1);
 starty=start_node(1,2);
 endnode=[floor(endnode(1,1)/res),floor(endnode(1,2)/res)];
